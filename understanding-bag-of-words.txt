@@ -1,0 +1,18 @@
+Bag of Words 
+============
+
+Machine learning algorithms can not work with basic text or raw text, rather 
+they can work with vectors of numbers. 
+
+For machine learning algorithms, we need to convert the text into vectors of numbers, 
+and this process is called feture extraction. 
+
+The bag of words model is a simple feature extraction technique where information 
+about the order or structure of words is discarded. That's why this approach 
+is called a bag of words. This approach tries to understand whether a known 
+word occurs in a document, but don't know where is that word in the document. 
+
+There are three steps to work with bag of model approach
+Step 1: load the data 
+Step 2: design the vocabulary 
+Step 3: create the document vectors 
