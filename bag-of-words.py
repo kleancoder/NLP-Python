@@ -9,10 +9,10 @@ vectorizer = CountVectorizer()
 # tokenize and build vocabulary
 vectorizer.fit(textDocument)
 
-# summarize
+# summarize and print vocabulary
 print(vectorizer.vocabulary_)
 
-# encode document
+# encode text document
 vector = vectorizer.transform(textDocument)
 
 # summarize encoded vector
