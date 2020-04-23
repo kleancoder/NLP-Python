@@ -1,5 +1,5 @@
-Bag of Words 
-============
+Bag of Words (BoW)
+=================
 
 Machine learning algorithms can not work with basic text or raw text, rather 
 they can work with vectors of numbers. 
@@ -13,6 +13,11 @@ is called a bag of words. This approach tries to understand whether a known
 word occurs in a document, but don't know where is that word in the document. 
 
 There are three steps to work with bag of model approach
-Step 1: load the data 
+Step 1: load the clean text
 Step 2: design the vocabulary 
 Step 3: create the document vectors 
+
+The bag of words approach widely used with:
+- Natural Language Processing
+- Information retival from documents 
+- Document classification 
