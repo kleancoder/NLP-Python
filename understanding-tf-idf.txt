@@ -7,11 +7,8 @@ the most frequent words in the document start to have the highest scores.
 These frequent words having highest scoring may not contain as much "informational gain"
 to the model compared to domain-spcific or some other rarer words. 
 
-ONe approach to solve the issue, is to penalize words those are quite frequent 
-accross all the documents. 
-This approach is called term frequency-inverse document frequency (TF-IDF). 
+One approach to solve the issue, is to penalize words those are quite frequent 
+accross all the documents. This approach is called term frequency-inverse document frequency (TF-IDF). 
 
 The TF-IDF approach being called a statistical measurement to evaluate the 
-importance of a word to a document in a corpus. 
-
-
+importance of a word to a document in a corpus/database. 
