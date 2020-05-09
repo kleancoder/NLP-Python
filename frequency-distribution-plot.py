@@ -2,7 +2,7 @@ from nltk.propability import FreqDist
 from matplotlib.pyplot as plt
 
 text = """Hi Mr. John, how are you, please?
-I hope you are fine. Tomorrow at 9 am a meeting suggested by Investors."""
+I hope you are fine. Tomorrow at 9 am a meeting suggested by Investors. You are requested to participate. Thanks."""
 
 tokenized_text = sent_tokenize(text)
 # print("tokenized text => ", tokenized_text)
